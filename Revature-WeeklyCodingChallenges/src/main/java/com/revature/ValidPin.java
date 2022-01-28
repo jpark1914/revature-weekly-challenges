@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class ValidPin {
     public static boolean isValidPin(String pin){
-        boolean validPin = false;
+        boolean validPin;
         List<Character> list = new ArrayList<>(
                 pin.chars()
                         .mapToObj(c -> (char) c)
